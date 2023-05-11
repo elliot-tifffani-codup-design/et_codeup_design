@@ -1,0 +1,22 @@
+body {
+    background: #F0F0F0;
+}
+.navbar {
+    /*background: #F0F0F0;*/
+}
+.logo {
+    background-image: url("/img/logo.png");
+    height: 105px;
+    width: 105px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.rCircle {
+    background-color: #E6563B;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
