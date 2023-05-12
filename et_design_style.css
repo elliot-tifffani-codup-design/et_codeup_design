@@ -2,19 +2,33 @@ body {
     background: #F0F0F0;
     font-family: "anton regular";
 }
-
-h1 {
-    font-size: 90px;
-    font-weight: bold;
-    magin: 0;
-    padding: 0;
+@media screen and (min-width:300px) {
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+    h2 {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
 }
-
-h2 {
-    font-size: 40px;
-    font-weight: bold;
-    magin: 0;
-    padding: 0;
+@media screen and (min-width:649px) {
+    h1 {
+        font-size: 60px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+    h2 {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 .navbar {
@@ -31,8 +45,8 @@ h2 {
 }
 .rCircle {
     background-color: #E6563B;
-    height: 130px;
-    width: 130px;
+    height: 150px;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,8 +55,8 @@ h2 {
 
 .oCircle{
     background-color: #EB9D3A;
-    height: 130px;
-    width: 130px;
+    height: 150px;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,8 +64,8 @@ h2 {
 
 .gCircle {
     background-color: #7CB06C;
-    height: 130px;
-    width: 130px;
+    height: 150px;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,8 +73,8 @@ h2 {
 
 .tCircle{
     background-color: #00ABA9;
-    height: 130px;
-    width: 130px;
+    height: 150px;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +100,7 @@ h2 {
     background-image: url("/img/macbook.jpg");
     width: 400px;
     height: 275px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
     border: 10px solid #E6E6E6;
