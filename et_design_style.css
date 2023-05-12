@@ -2,6 +2,11 @@ body {
     background: #F0F0F0;
     font-family: "Anton Regular", Anton, sans-serif;
 }
+p{
+    font-family: "abel regular", abel, sans-serif;
+}
+
+
 @media screen and (min-width:300px) {
     h1 {
         font-size: 40px;
