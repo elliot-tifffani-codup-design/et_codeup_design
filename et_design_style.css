@@ -1,6 +1,6 @@
 body {
     background: #F0F0F0;
-    font-family: "anton regular";
+    font-family: "Anton Regular", Anton, sans-serif;
 }
 @media screen and (min-width:300px) {
     h1 {
@@ -45,8 +45,8 @@ body {
 }
 .rCircle {
     background-color: #E6563B;
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,8 +55,8 @@ body {
 
 .oCircle{
     background-color: #EB9D3A;
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,8 +64,8 @@ body {
 
 .gCircle {
     background-color: #7CB06C;
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,8 +73,8 @@ body {
 
 .tCircle{
     background-color: #00ABA9;
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ body {
     background-image: url("/img/apple-ipad.jpg");
     width: 400px;
     height: 275px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
     border: 10px solid #E6E6E6;
@@ -112,7 +112,7 @@ body {
     background-image: url("/img/man.jpg");
     width: 400px;
     height: 275px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
     border: 10px solid #E6E6E6;
