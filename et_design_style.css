@@ -15,8 +15,8 @@ body {
 }
 .rCircle {
     background-color: #E6563B;
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,9 +25,48 @@ body {
 
 .oCircle{
     background-color: #EB9D3A;
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.gCircle {
+    background-color: #7CB06C;
+    height: 130px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tCircle{
+    background-color: #00ABA9;
+    height: 130px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallCircle {
+    height: 20px;
+    width: 20px;
+}
+
+.imgBackground {
+    background-image: url("/img/apple-ipad.jpg");
+    width: 400px;
+    height: 275px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border: 10px solid #E6E6E6;
+    margin: 0;
+    padding: 0;
+}
+.test {
+    margin: auto;
+    padding: 0;
 }
