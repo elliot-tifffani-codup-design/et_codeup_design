@@ -1,6 +1,22 @@
 body {
     background: #F0F0F0;
+    font-family: "anton regular";
 }
+
+h1 {
+    font-size: 90px;
+    font-weight: bold;
+    magin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    magin: 0;
+    padding: 0;
+}
+
 .navbar {
     /*background: #F0F0F0;*/
 }
@@ -66,6 +82,44 @@ body {
     margin: 0;
     padding: 0;
 }
+.imgBackground2 {
+    background-image: url("/img/macbook.jpg");
+    width: 400px;
+    height: 275px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border: 10px solid #E6E6E6;
+    margin: 0;
+    padding: 0;
+}
+
+.imgBackground3 {
+    background-image: url("/img/man.jpg");
+    width: 400px;
+    height: 275px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border: 10px solid #E6E6E6;
+    margin: 0;
+    padding: 0;
+}
+
+.imgBackground4 {
+    background-image: url("/img/security.jpg");
+    width: 400px;
+    height: 275px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border: 10px solid #E6E6E6;
+    margin: 0;
+    padding: 0;
+}
+
+
+
 .test {
     margin: auto;
     padding: 0;
