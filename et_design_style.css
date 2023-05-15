@@ -2,7 +2,7 @@ body {
     background: #F0F0F0;
     font-family: "Anton Regular", Anton, sans-serif;
 }
-p{
+p, .featured, h5{
     font-family: "abel regular", abel, sans-serif;
 }
 
